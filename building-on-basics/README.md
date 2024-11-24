@@ -5,7 +5,7 @@ Este proyecto contiene una colección de programas en C que demuestran diversas 
 ## Estructura del Proyecto
 
 ```
-mi-proyecto-c
+building-on-basics
 ├── src
 │   ├── simplenote.c
 │   ├── bitwise.c
@@ -15,7 +15,6 @@ mi-proyecto-c
 │   ├── notesearch.c
 │   ├── rand_example.c
 │   └── hacking.h
-├── Makefile
 └── README.md
 ```
 
@@ -36,25 +35,3 @@ mi-proyecto-c
 - **src/rand_example.c**: Demuestra la generación de números pseudorandom utilizando la función `rand()`. Muestra cómo sembrar el generador de números aleatorios y producir valores aleatorios dentro de un rango especificado.
 
 - **src/hacking.h**: Archivo de encabezado que contiene funciones utilitarias para el manejo de errores y la asignación de memoria, específicamente la función `fatal()` para mensajes de error y la función `ec_malloc()` para la asignación de memoria con verificación de errores.
-
-- **Makefile**: Contiene las instrucciones de construcción para compilar los archivos fuente en C en programas ejecutables. Define objetivos para cada programa y especifica los comandos de compilación.
-
-## Instrucciones de Uso
-
-Para compilar el proyecto, simplemente ejecute el siguiente comando en la raíz del proyecto:
-
-```
-make
-```
-
-Esto generará los ejecutables correspondientes en el directorio `src`. Para ejecutar cada programa, use el siguiente formato:
-
-```
-./nombre_del_programa [argumentos]
-```
-
-Asegúrese de tener los permisos adecuados para ejecutar los programas que requieren acceso a archivos o permisos de usuario específicos.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si desea mejorar este proyecto, siéntase libre de enviar un pull request o abrir un issue para discutir cambios propuestos.
